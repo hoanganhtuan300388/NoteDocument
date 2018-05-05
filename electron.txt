@@ -1,0 +1,28 @@
+convert ảnh icon: https://iconverticons.com/online/
+
+1. install "link tham khảo https://www.youtube.com/watch?v=UHai_0mcQ-o"
+	-) npm init (tạo file package.json)
+	-) npm install electron
+	-) vào package.json xóa dependencies đi
+	-) vào package.json sửa scripts.start="electron index.js" (ở đây index.json sẽ là file chạy đầu tiên)
+
+2. build "link tham khảo https://www.youtube.com/watch?v=UHai_0mcQ-o"
+	-) npm install electron-packager --save-dev
+	-) sửa file package.json
+		scripts.build-win32="electron-packager . basic --version 1.0.1 --platform win32 --icon icon.ico --out dist --overwrite",
+		scripts.build-linux="electron-packager . basic --version 1.0.1 --platform linux --icon icon.png --out dist --overwrite"
+		(chú ý đường dẫn của ứng dụng, icon, thư mục build dist)
+	-) build
+		npm run build-win32 (build window)
+		npm run build-linux (build linux)
+		
+3. angular4 vs electron "link tham khảo https://www.youtube.com/watch?v=u_vMChpZMCk"
+	-) ng new angular-electron
+	-) cd angular-electron
+	-) npm install electron --save-dev
+	-) sửa index.html đoạn <base href="/"> thành <base href="./">
+	-) sửa file package.json thêm main="main.js"
+	-) thêm file main.js (code coppy từ link này về cũng đc https://github.com/AngularFirebase/angular-electron/blob/master/main.js )
+	-) sửa file package.json
+		scripts.electron="ng build --prod && electron ."
+	-) 

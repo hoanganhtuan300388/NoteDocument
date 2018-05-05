@@ -1,0 +1,40 @@
+https://scotch.io/tutorials/build-a-mobile-app-with-angular-2-and-ionic-2
+http://www.dotnetcurry.com/javascript/1355/ionic-2-tutorial-with-angular-typescript
+https://toidicodedao.com/2016/01/12/tutorial-viet-ung-dung-di-dong-mot-cach-de-dang-voi-ionic-framework/
+https://ionicframework.com/docs
+https://ionicframework.com/docs/components
+
+1. Install
+	ionic start buildlan1 tabs - ứng dụng chỉ cần có tab bar phía dưới
+	ionic start buildlan2 blank - ứng dụng không tab, không menu
+	ionic start buildlan3 sidemenu - ứng dụng chỉ cần có menu bên trái
+	ionic start buildlan4 super - ứng dụng đầy đủ login, tab bar phía dưới.v.v..
+	ionic start buildlan5 tutorial - giống với sidemenu
+	ionic start buildlan6 conference - ứng dụng đầy đủ login, tab bar phía dưới, menu, search, google map.v.v..
+	ionic start buildlan7 aws - không hiểu
+	
+2. Run server
+	ionic serve
+	
+3. Tạo module
+	ionic g page demos - tạo 1 module là demos
+
+4. Tạo platform
+	ionic cordova platform add android
+	ionic cordova platform add ios
+	ionic cordova platform rm ios - de xoa platform
+
+5. Build thường
+	ionic cordova build android
+	ionic cordova build ios
+	
+6. Build và upload lên https://dashboard.ionicjs.com
+	cái này chưa tìm hiểu xong
+	
+7. Cập nhật icon và splash cho app
+	coppy ảnh icon.png vào folder ./resources
+	coppy ảnh splash.png vào folder ./resources
+	ionic cordova resources
+	
+8. de xem dang dung bao nhieu plugin
+	ionic cordova plugin ls
