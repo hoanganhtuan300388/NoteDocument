@@ -1,0 +1,9 @@
+INSERT INTO `m_green` (`golf_field_id`, `course_id`, `hole_id`, `green_id`, `version`, `last_version_flg`, `front_lat`, `front_long`, `centre_lat`, `centre_long`, `back_lat`, `back_long`, `delete_flg`, `created`, `updated`) SELECT @row := @row + 1 as row, @row, @row, @row, 1, 1, 36.337041447436, 138.62653161964, 36.33707535744, 138.62641082639, 36.337099785525, 138.62629031105, 0, NOW(), NOW() FROM 
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t,
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t2, 
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t3, 
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t4, 
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t5, 
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t6,
+(select 0 union all select 1 union all select 2 union all select 3 union all select 4 union all select 5 union all select 6 union all select 7 union all select 8 union all select 9) t7,
+(SELECT @row:=0) t8;
