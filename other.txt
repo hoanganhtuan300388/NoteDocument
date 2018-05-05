@@ -1,0 +1,200 @@
+mysqldump -u root -p nowisee > D:/text.sql
+mysqldump -u longta -p marketplace > /var/tmp/marketplace.sql
+mysqldump -u root -p marketplace > /var/tmp/marketplace.sql
+mysqldump -u root -p pocketitem > /var/tmp/pocketitem.sql
+mysql -u root -p pocket < /var/tmp/pocket.sql
+mysql -u root -p pocketitem < /var/tmp/pocketitem.sql
+
+
+mysql -u root -p moremall < F:/xampps/xampp5.6.3/htdocs/KMK/kmk_documents/db/moremall_empty.dump
+
+mysqldump -u root -p --no-data ultracaddy2 > F:/schema.sql
+mysqldump -u root -p --no-data ultracaddy > /var/tmp/ultracaddy.sql
+
+mysql -u root -p ultracaddy < C:/Users/Admin/Desktop/ultracaddy.sql
+
+
+ssh tuanha@133.130.120.128
+pass: 123456
+--- truy cap mysql
+mysql -ulongta -p
+pass: tremocoi
+
+
+composer create-project laravel/laravel LaravelMultipleLogin
+composer install
+php artisan key:generate
+
+test004
+abcdef123456
+
+
+
+4283105522630027
+hạn dùng : 05/18
+mã sercure code : 163
+
+
+select * from users where username='' or ''='' and password='' or ''='';
+select * from users where username='' or true--'' and password='' or true--'';
+
+select * from users where username=('') or ('x')=('') and password=('') or ('x')=('');
+
+
+ 'or' x '=' x 'or' x '=' x
+ 
+ 
+Nếu composer bị báo lỗi "Warning: This development build of composer is over 60 days old"
+	composer self-update
+Install phiên bản mới nhất
+	composer create-project --prefer-dist laravel/laravel book
+Install tùy theo version
+	composer create-project laravel/laravel your-project-name 5.2.*
+Nếu dùng cấu trúc module thì thêm (để chia cấu trúc theo module)
+	composer require caffeinated/modules
+Dùng debugbar
+	composer require barryvdh/laravel-debugbar
+	
+mysql -u root -p marketplace < C:/Users/TUAN/Desktop/demo.sql
+
+
+seller001/runsystem2016
+
+72ae2d89c8bbb1f4aeff8fd2b525fdaca275162a
+
+COMPANY
+'baseurl'=>'http://company-api-428507840.ap-northeast-1.elb.amazonaws.com:8080/gaudi-company/',
+'rssurl'=> 'http://ec2-13-112-197-134.ap-northeast-1.compute.amazonaws.com:8080/rss-admin/',
+CLOUD
+'baseurl'=>'http://ec2-13-112-59-221.ap-northeast-1.compute.amazonaws.com:8080/gaudi-cloud/',
+
+
+http://company-1420942729.ap-northeast-1.elb.amazonaws.com/company
+http://ec2-13-112-59-221.ap-northeast-1.compute.amazonaws.com/cloud
+
+dev
+http://company-1420942729.ap-northeast-1.elb.amazonaws.com/company_dev
+http://ec2-13-112-59-221.ap-northeast-1.compute.amazonaws.com/cloud_dev
+
+
+https://docs.google.com/spreadsheets/d/1e_SAKCyZ6K21VMeKxQ-mO0YjZojlFQz6Z1R3LzC_CHQ/edit#gid=0&range=B107
+
+
+[引用 aid=1961517 time=1498718142][To:1703185] Hoang Anh Tuan (トゥアン)
+Anh login putty bằng thông tin này ạ
+Server: 163.44.75.215 port: 20022
+user: runsystem_v
+private key: .....
+Các lệnh phải chạy mỗi lần update code:
+cd /var/www/dom-new-onamae.test/cake/onamae/
+svn up
+cd ../..
+./sync_dev.sh run[/引用]
+[STAGING]
+cd /var/www/deploy/stg-onamae-domain01/staging.onamae.com/cake/onamae/
+cd /var/www/deploy/stg-onamae-domain02/staging.onamae.com/cake/onamae/
+5/7 15:16
+svn up
+
+kUp/3Sv7$l
+H|U65GN5pX}T3%
+
+cd htdocs/busapp/busapp_server_socket/app
+cd htdocs/busapp/socket/app
+http://localhost/busapp/busapp_server_client/drivers/test
+
+Ip: 103.18.7.212
+Port ssh: 32801 (root/runsystem)
+Web: http://103.18.7.212:32800/
+mysql (root/aA@123456)
+
+service httpd status
+service httpd restart
+cd /var/www/html/app
+php Console/cake.php realtime
+nohup php Console/cake.php Realtime
+netstat -np
+kill -9 1982
+
+mysql -u root -p bus_app < /tmp/bus_app.sql
+
+C:\Users\Admin\AppData\Local\Android\Sdk\platforms
+
+
+cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="139532123311808" --variable APP_NAME="billad"
+cordova plugin add twitter-connect-plugin --variable FABRIC_KEY="bR3JLguVMcSzDVVC5R8P246Qs"
+
+
+ssh -p 9001 root@103.18.7.212
+pass : gmo-z@123
+0.0.0.0:9000->9000/tcp, 0.0.0.0:9001->22/tcp, 0.0.0.0:9002->80
+
+Server con pocket:
+user/pass : root/gmo-z@123
+ip : 103.18.7.212
+ssh: port 6
+web: http://103.18.7.212:4/
+http://devops.runsystem.info:4/phpmyadmin/
+
+git revert /var/www/html/app/webroot/css/pocket.css
+
+
+
+Yêu cầu:
+1. CentOS：7
+2. PHP：7.1
+3. Apache：2.4
+4.Maria db：10
+5. Git
+6. PHPmyadmin
+7. PHP Framework Cake 3.x
+Server test phía Run
+root/Gmorunsystem@1234#
+ssh:1046
+web: http://devops.runsystem.info:1047/
+pass mariadb: MariaDB
+
+http://devops.runsystem.info:1047/api/golf/courseSearch
+
+http://www.japan9.com/cgi/cron.cgi
+
+composer self-update && composer create-project --prefer-dist cakephp/app cakephp_and_mongodb
+
+keytool -genkey -v -keystore my-release-key.keystore -alias alias_name -keyalg RSA -keysize 2048 -validity 10000
+keytool -exportcert -alias alias_name -keystore my-release-key.keystore | openssl sha1 -binary | openssl base64
+keytool -exportcert -alias alias_name -keystore my-release-key.keystore | openssl sha1 -binary | openssl base64
+keytool -exportcert -alias androiddebugkey -keystore "C:\Users\Admin\.android\debug.keystore" | openssl sha1 -binary | openssl base64
+
+mAJqanDdxO2T28isRMXHAbKT1Dc=
+mAJqanDdx02T28isRMXHAbKT1Dc=
+
+keytool -exportcert -alias androiddebugkey -keystore C:\Users\Admin\.androiddebug.keystore | F:\OpenSSL\bin\openssl sha1 -binary | F:\OpenSSL\bin\openssl base64
+
+order user truyen len them khoang cach thoi gian den nguoi don
+xac nhan dat xe gui them
+sdt, bien so xe, loai ve, tien
+
+\busapp_docs\Team_Documents\Documents\ServerSocket\socket_design.xlsx
+
+cd f:/xampps/xampp5.6.3/htdocs/poland_app/source_code
+cd f:/xampps/xampp5.6.3/htdocs/poland_app/cordova_build
+cd F:/xampps/xampp5.6.3/htdocs/porando/poland/source_code
+cd F:/xampps/xampp5.6.3/htdocs/porando/poland/cordova
+ng build --target=production --environment=prod --output-path F:/xampps/xampp5.6.3/htdocs/poland_app/cordova_build/www --base-href ./
+ng build --target=production --environment=prod --output-path F:/xampps/xampp5.6.3/htdocs/poland_app/cordova_build/www --base-href .
+ng build --target=production --environment=prod --output-path F:/xampps/xampp5.6.3/htdocs/porando/poland/cordova/www --base-href ./ file:///android_asset/www/
+
+ng build --target=production --environment=prod --output-path F:/bowlingbuild/www --base-href ./
+
+1. những màn hình login, profile.v.v..có input thì hiển thị validate như nào? (alert lên hay hiển thị text đỏ phía dưới)
+2. màn hình top friend nút search bạn bè thì di chuyển đến màn hình search bạn riêng hay input text search ở đâu?
+cordova create bowlingbuild com.example.bowlingbuild bowlingbuild
+
+編集品編集編集品編集編集品編集集https://docs.google.com/spreadsheets /d/1li50dbCW0axxxxxxxxxxxxaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaa商品編集商品111111111111
+
+
+font-family: "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", "MS PGothic", sans-serif;
+
+ng build --target=production --environment=prod --base-href ./ 
+
+cordova create TuanCo com.example.tuanco TuanCo
