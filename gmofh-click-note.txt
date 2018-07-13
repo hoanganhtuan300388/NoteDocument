@@ -1,0 +1,35 @@
+http://devops.runsystem.info/
+	tuanha@runsystem.net
+	hoanganhtuan123
+http://infra-jira2:8080
+	t-hoang.run
+	123@123Aa
+https://kcw.kddi.ne.jp
+	t-hoang.run@gmofh.com
+	123@123Aa
+https://github.com/
+	hoanganhtuan.30388@gmail.com
+	123@123Aa
+https://10.110.50.62/
+	t-hoang.run@gmofh.com
+	123@123Aa
+http://confluence.gmo-sec.jp
+	t-hoang.run
+	123@123Aa
+https://gmofh-app.backlog.com
+	t-hoang.run@gmofh.com
+	123@123Aa
+https://github.com/
+	hoanganhtuan.30388@gmail.com
+	123@123Aa
+http://stg-admin1-b:8080/operator/index.do
+	admin001
+	admin001
+	
+http://confluence.gmo-sec.jp/display/TOOLTEAM/How+to+create+excel+timesheet
+
+java -jar swagger-codegen-cli.jar generate \
+  -i C:/TuanHA/swagger-api/FXAPI-03.yaml \
+  -l swift4 \
+  -o C:/TuanHA/swagger-api/outputSwift \
+  -c C:/TuanHA/swagger-api/config_swift.json
